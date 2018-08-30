@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bottom_main"
+        android:icon="@drawable/drawer_tab_img_main"
+        android:title="@string/bottom_tab_main" />
+
+    <item
+        android:id="@+id/navigation_bottom_order"
+        android:icon="@drawable/drawable_tab_img_order"
+        android:title="@string/bottom_tab_order" />
+
+    <item
+        android:id="@+id/navigation_bottom_me"
+        android:icon="@drawable/drawable_tab_img_me"
+        android:title="@string/bottom_tab_me" />
+
+</menu>

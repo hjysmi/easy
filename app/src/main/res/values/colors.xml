@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="basecolor">#6ab8ef</color>
+    <color name="pricecolor">#e54c4c</color>
+    <color name="bg666666">#666666</color>
+    <color name="white">#ffffff</color>
+    <color name="colorTabNormal">#4599EB</color>
+    <color name="colorTabSelected">@color/colorPrimary</color>
+    <color name="theme_color_primary">#fffb7299</color>
+    <color name="text_gray">#ff737a80</color>
+    <color name="bge6e6e6">#E6E6E6</color>
+</resources>
