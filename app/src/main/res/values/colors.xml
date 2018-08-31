@@ -12,4 +12,18 @@
     <color name="theme_color_primary">#fffb7299</color>
     <color name="text_gray">#ff737a80</color>
     <color name="bge6e6e6">#E6E6E6</color>
+    <color name="_progress__alpha_gray">#b2646464</color>
+    <color name="_progress__aplha_pink">#4cde698c</color>
+    <color name="_progress__gray">#dfa5a5a5</color>
+    <color name="_progress__green">#afcfff66</color>
+    <color name="_progress__pink">#ffde698c</color>
+    <color name="_text__gray">#ff797979</color>
+    <color name="_text__gray_dark">#ff616161</color>
+    <color name="_text__gray_light">#ffbababa</color>
+    <color name="_text__gray_translucent_light">#abbababa</color>
+    <color name="_text__gray_very_dark">#ff525252</color>
+    <color name="_text__pink">#ffd665a0</color>
+    <color name="_text__white">#ffffffff</color>
+    <color name="_text__white_dark">#ff999999</color>
+    <color name="black">#ff000000</color>
 </resources>

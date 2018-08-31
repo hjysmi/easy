@@ -3,4 +3,13 @@
     <string name="bottom_tab_main">首页</string>
     <string name="bottom_tab_order">订单</string>
     <string name="bottom_tab_me">我的</string>
+    <string name="live_load_more">查看更多</string>
+
+    <!-- Common -->
+    <string name="charge_loading">加载中...</string>
+    <string name="charge_no_data_tips">╮(╯3╰)╭再怎么找也没有啦</string>
+    <string name="upper_load_failed_with_click">加载失败,请点击重新尝试</string>
+    <string name="tips_load_error">加载失败了Σ(OДO</string>
+    <string name="section_region">分区</string>
+
 </resources>
