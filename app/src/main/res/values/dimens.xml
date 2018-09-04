@@ -86,7 +86,7 @@
     <dimen name="text_size_13">13sp</dimen>
     <dimen name="text_size_small">12sp</dimen>
     <dimen name="text_size_tiny">10sp</dimen>
-    <dimen name="top_banner_height">120.0dip</dimen>
+    <dimen name="top_banner_height">360.0dip</dimen>
 
     <dimen name="view_size_1dp">1.0dip</dimen>
     <dimen name="view_size_1px">1.0px</dimen>

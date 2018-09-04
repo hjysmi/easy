@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.easydeliver.ink.app.base.banner.SmartViewPager
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_72"
+        android:layout_weight="5"
+        android:layout_below="@+id/banner"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_main_wash"
+            style="@style/text_style_navigation"
+            android:clickable="true"
+            android:drawableTop="@drawable/xi"
+            android:foreground="@drawable/item_background"
+            android:text="@string/main_wash" />
+
+        <TextView
+            android:id="@+id/tv_main_shop"
+            style="@style/text_style_navigation"
+            android:clickable="true"
+            android:drawableTop="@drawable/shundai"
+            android:foreground="@drawable/item_background"
+            android:text="@string/main_shop" />
+
+        <TextView
+            android:id="@+id/tv_main_agent"
+            style="@style/text_style_navigation"
+            android:clickable="true"
+            android:drawableTop="@drawable/shop"
+            android:foreground="@drawable/item_background"
+            android:text="@string/main_shop" />
+
+        <TextView
+            android:id="@+id/tv_main_express"
+            style="@style/text_style_navigation"
+            android:clickable="true"
+            android:drawableTop="@drawable/qusong"
+            android:foreground="@drawable/item_background"
+            android:text="@string/main_express" />
+
+        <TextView
+            android:id="@+id/tv_main_more"
+            style="@style/text_style_navigation"
+            android:clickable="true"
+            android:drawableTop="@drawable/more"
+            android:foreground="@drawable/item_background"
+            android:text="@string/main_more" />
+
+
+    </LinearLayout>
+</RelativeLayout>

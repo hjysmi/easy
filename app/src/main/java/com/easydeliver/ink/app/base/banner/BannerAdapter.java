@@ -42,7 +42,7 @@ public abstract class BannerAdapter<T, V extends View> extends PagerAdapter {
         if (layoutId == INVALID_ID) {
             itemView = getItemView();
         } else {
-            itemView = (V) LayoutInflater.from(container.getContext()).inflate(layoutId, null);
+            itemView = (V) LayoutInflater.from(container.getContext()).inflate(layoutId,container, false);
         }
         if (itemView == null) {
             throw new RuntimeException("itemView can not be null,check getLayoutId or getItemView");

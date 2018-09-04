@@ -1,14 +1,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@color/bgf5f5f5"
     >
 
-    <android.support.v4.widget.SwipeRefreshLayout
+  <!--  <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/layout_refresh"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv"
@@ -16,7 +15,19 @@
         android:layout_height="match_parent"
         android:scrollbars="vertical"
         />
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>-->
+    <com.easydeliver.ink.app.base.banner.SmartViewPager
+        android:id="@+id/banner"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:background="@color/basecolor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvText"
+        />
+
    <!-- <ProgressBar
         android:id="@+id/progressBar"
         style="?android:progressBarStyleLargeInverse"

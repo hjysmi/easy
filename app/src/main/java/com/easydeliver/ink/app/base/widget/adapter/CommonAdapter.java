@@ -9,6 +9,7 @@ import com.common.widget.adapter.DefaultAdapterWrapper;
 import com.easydeliver.ink.app.R;
 import com.easydeliver.ink.app.base.widget.adapter.binder.LoadFailedBinder;
 import com.easydeliver.ink.app.base.widget.adapter.binder.LoadMoreBinder;
+import com.facebook.drawee.backends.pipeline.Fresco;
 
 import java.util.List;
 
@@ -35,9 +36,9 @@ public class CommonAdapter extends DefaultAdapterWrapper<MultiTypeAdapter> {
             super.onScrollStateChanged(recyclerView, newState);
             if (mSaveStrategyEnabled) {
                 if (newState == RecyclerView.SCROLL_STATE_DRAGGING) {
-                 //   Fresco.getImagePipeline().pause();
+                    Fresco.getImagePipeline().pause();
                 } else if (newState == RecyclerView.SCROLL_STATE_IDLE) {
-                  //  Fresco.getImagePipeline().resume();
+                    Fresco.getImagePipeline().resume();
                 }
             }
         }
