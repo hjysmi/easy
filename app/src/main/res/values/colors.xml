@@ -6,6 +6,8 @@
     <color name="basecolor">#6ab8ef</color>
     <color name="pricecolor">#e54c4c</color>
     <color name="bg666666">#666666</color>
+    <color name="bgb2b2b2">#B2B2B2</color>
+    <color name="bgd9d9d9d9">#d9d9d9</color>
     <color name="bgf5f5f5">#f5f5f5</color>
     <color name="bgF8F9FB">#F8F9FB</color>
     <color name="white">#ffffff</color>

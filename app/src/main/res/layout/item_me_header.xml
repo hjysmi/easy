@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="414dp"
+    android:background="@drawable/banne"
+    android:layout_marginBottom="9dp">
+
+    <com.easydeliver.ink.app.base.ui.IconFontTextView
+        android:id="@+id/tv_msg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/str_text_msg"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/header" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/login_border"
+        android:gravity="center"
+        android:text="@string/me_login"
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+</RelativeLayout>

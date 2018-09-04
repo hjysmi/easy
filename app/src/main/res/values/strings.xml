@@ -9,6 +9,15 @@
     <string name="main_agent">代购</string>
     <string name="main_express">取送件</string>
     <string name="main_more">更多</string>
+    <string name="me_login">登 录</string>
+    <string name="me_qr_code">二维码</string>
+    <string name="me_login_password">登录密码</string>
+    <string name="me_purchase_password">支付密码</string>
+    <string name="me_push_msg">推送通知</string>
+    <string name="me_lan_change">语言选择</string>
+    <string name="me_suggest">投诉建议</string>
+
+
 
 
     <string name="live_load_more">查看更多</string>
@@ -19,5 +28,8 @@
     <string name="upper_load_failed_with_click">加载失败,请点击重新尝试</string>
     <string name="tips_load_error">加载失败了Σ(OДO</string>
     <string name="section_region">分区</string>
+
+    <string name="str_text_msg">&#xe626;</string>
+    <string name="str_text_jiantou">&#xe66b;</string>
 
 </resources>

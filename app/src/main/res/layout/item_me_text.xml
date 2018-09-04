@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:clickable="true"
+    android:id="@+id/rllayout"
+    android:orientation="horizontal"
+    android:background="@drawable/me_item_selector">
+
+    <ImageView
+        android:id="@+id/me_item_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/me_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/me_item_img"
+        android:textSize="30dp" />
+
+    <com.easydeliver.ink.app.base.ui.IconFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:text="@string/str_text_jiantou"
+        android:textColor="@color/bgb2b2b2"
+        android:textSize="24dp" />
+</RelativeLayout>

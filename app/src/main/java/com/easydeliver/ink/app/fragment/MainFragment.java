@@ -11,6 +11,7 @@ import android.view.View;
 import com.easydeliver.ink.app.R;
 import com.easydeliver.ink.app.base.BaseFragment;
 import com.easydeliver.ink.app.base.utils.FragmentUtils;
+import com.easydeliver.ink.app.base.utils.ScreenUtils;
 import com.easydeliver.ink.app.base.widget.adapter.CommonAdapter;
 import com.easydeliver.ink.app.main.Banner;
 import com.easydeliver.ink.app.main.MainHeader;
@@ -35,7 +36,9 @@ public class MainFragment extends BaseFragment
 
     @Override
     public void initData(@Nullable Bundle bundle) {
-
+        if (ScreenUtils.isPortrait()) {
+            ScreenUtils.adaptScreen4VerticalSlide(this.getActivity(), 750);
+        }
     }
 
     @Override
