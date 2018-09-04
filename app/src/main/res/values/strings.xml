@@ -1,8 +1,16 @@
 <resources>
+    <!--Home-->
     <string name="app_name">easydeliver</string>
     <string name="bottom_tab_main">首页</string>
     <string name="bottom_tab_order">订单</string>
     <string name="bottom_tab_me">我的</string>
+    <string name="main_wash">洗涤护理</string>
+    <string name="main_shop">顺带购物</string>
+    <string name="main_agent">代购</string>
+    <string name="main_express">取送件</string>
+    <string name="main_more">更多</string>
+
+
     <string name="live_load_more">查看更多</string>
 
     <!-- Common -->
