@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="414dp"
     android:background="@drawable/banne"
-    android:layout_marginBottom="9dp">
+    android:layout_marginBottom="15dp">
 
     <com.easydeliver.ink.app.base.ui.IconFontTextView
         android:id="@+id/tv_msg"
@@ -12,7 +12,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
         android:text="@string/str_text_msg"
         android:textColor="@color/white"

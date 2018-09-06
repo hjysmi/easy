@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import com.common.statusbar.StatusBarCompat;
 import com.easydeliver.ink.app.R;
 import com.easydeliver.ink.app.base.BaseFragment;
 import com.easydeliver.ink.app.base.utils.FragmentUtils;
@@ -45,6 +46,7 @@ public class MeFragment extends BaseFragment
 
     @Override
     public void initView(Bundle savedInstanceState, View contentView) {
+        StatusBarCompat.translucentStatusBar(getActivity(), true);
         rv = contentView.findViewById(R.id.rv);
         LinearLayoutManager ll = new LinearLayoutManager(this.getActivity());
         ll.setOrientation(LinearLayoutManager.VERTICAL);

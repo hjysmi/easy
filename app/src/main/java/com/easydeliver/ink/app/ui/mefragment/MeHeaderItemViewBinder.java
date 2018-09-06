@@ -2,13 +2,14 @@ package com.easydeliver.ink.app.ui.mefragment;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.easydeliver.ink.app.R;
 import com.easydeliver.ink.app.base.ui.IconFontTextView;
+import com.easydeliver.ink.app.base.utils.ScreenUtils;
 
 import me.drakeet.multitype.ItemViewBinder;
 
@@ -24,7 +25,13 @@ public class MeHeaderItemViewBinder extends ItemViewBinder<MeHeader, MeHeaderIte
 
     @Override
     protected void onBindViewHolder(@NonNull MeHeaderViewHolder holder, @NonNull MeHeader item) {
-
+        holder.tv_msg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ScreenUtils.cancelAdaptScreen();
+                Toast.makeText(view.getContext(), "消息中心", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     public class MeHeaderViewHolder extends RecyclerView.ViewHolder {
@@ -32,12 +39,7 @@ public class MeHeaderItemViewBinder extends ItemViewBinder<MeHeader, MeHeaderIte
         public MeHeaderViewHolder(View itemView) {
             super(itemView);
             tv_msg = itemView.findViewById(R.id.tv_msg);
-            tv_msg.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Log.e("xue","click 消息中心");
-                }
-            });
+
         }
     }
 }
