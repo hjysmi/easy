@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="18dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="28dp">
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:background="@color/bg0092d6" />
+
+    <TextView
+        android:id="@+id/main_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:gravity="top"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:text="@string/main_express"
+        android:textColor="@color/bg0092d6"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginRight="5dp"
+            android:includeFontPadding="false"
+            android:paddingTop="0dp"
+            android:text="@string/main_more"
+            android:textColor="@color/bga7a7a7"
+            android:textSize="18dp" />
+
+        <com.easydeliver.ink.app.base.ui.IconFontTextView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:padding="0dp"
+            android:text="@string/str_text_jiantou"
+            android:textColor="@color/bga7a7a7" />
+    </LinearLayout>
+
+
+</RelativeLayout>

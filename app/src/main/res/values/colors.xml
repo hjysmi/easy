@@ -16,6 +16,17 @@
     <color name="theme_color_primary">#fffb7299</color>
     <color name="text_gray">#ff737a80</color>
     <color name="bge6e6e6">#E6E6E6</color>
+    <color name="bg0092d6">#0092D6</color>
+    <color name="bga7a7a7">#A7A7A7</color>
+
+
+    <!--main text-->
+    <color name="main_text_wash">#0092D2</color>
+    <color name="main_text_shop">#FFA745</color>
+    <color name="main_text_agent">#F89D00</color>
+    <color name="main_text_express">#FF706C</color>
+    <color name="main_text_more">#D5BA9E</color>
+
     <color name="_progress__alpha_gray">#b2646464</color>
     <color name="_progress__aplha_pink">#4cde698c</color>
     <color name="_progress__gray">#dfa5a5a5</color>

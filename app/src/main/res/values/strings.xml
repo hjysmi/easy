@@ -9,6 +9,8 @@
     <string name="main_agent">代购</string>
     <string name="main_express">取送件</string>
     <string name="main_more">更多</string>
+    <string name="main_new_recommand">新品特惠</string>
+    <string name="main_hot_recommand">热门推荐</string>
     <string name="me_login">登 录</string>
     <string name="me_qr_code">二维码</string>
     <string name="me_login_password">登录密码</string>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/banner"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_main_wash"
+            style="@style/text_style_navigation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawablePadding="13dp"
+            android:textSize="21dp"
+            android:padding="0dp"
+            android:textColor="@color/main_text_wash"
+            android:drawableTop="@drawable/xi"
+            android:text="@string/main_wash" />
+
+        <TextView
+            android:id="@+id/tv_main_shop"
+            style="@style/text_style_navigation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textSize="21dp"
+            android:drawablePadding="13dp"
+            android:textColor="@color/main_text_shop"
+            android:drawableTop="@drawable/shundai"
+            android:text="@string/main_shop" />
+
+        <TextView
+            android:id="@+id/tv_main_agent"
+            style="@style/text_style_navigation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="21dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawablePadding="13dp"
+            android:textColor="@color/main_text_agent"
+            android:drawableTop="@drawable/shop"
+            android:text="@string/main_shop" />
+
+        <TextView
+            android:id="@+id/tv_main_express"
+            style="@style/text_style_navigation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textSize="21dp"
+            android:drawablePadding="13dp"
+            android:textColor="@color/main_text_express"
+            android:drawableTop="@drawable/qusong"
+            android:text="@string/main_express" />
+
+        <TextView
+            android:id="@+id/tv_main_more"
+            style="@style/text_style_navigation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="21dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawablePadding="13dp"
+            android:textColor="@color/main_text_more"
+            android:drawableTop="@drawable/more"
+            android:text="@string/main_more" />
+    </LinearLayout>
+</RelativeLayout>
