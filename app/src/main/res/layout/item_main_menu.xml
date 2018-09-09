@@ -51,7 +51,7 @@
             android:drawablePadding="13dp"
             android:textColor="@color/main_text_agent"
             android:drawableTop="@drawable/shop"
-            android:text="@string/main_shop" />
+            android:text="@string/main_agent" />
 
         <TextView
             android:id="@+id/tv_main_express"

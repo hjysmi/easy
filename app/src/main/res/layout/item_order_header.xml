@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/order_shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:includeFontPadding="false"
+            android:text="@string/order_wait_comment"
+            android:textColor="@color/bg212121"
+            android:textSize="24dp" />
+
+        <com.easydeliver.ink.app.base.ui.IconFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/order_shop_name"
+            android:gravity="center"
+            android:text="@string/str_text_jiantou"
+            android:textColor="@color/bga7a7a7"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/order_trade_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/bg0093D7"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

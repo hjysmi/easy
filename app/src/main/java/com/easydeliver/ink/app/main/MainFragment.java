@@ -1,4 +1,4 @@
-package com.easydeliver.ink.app.fragment;
+package com.easydeliver.ink.app.main;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,19 +12,6 @@ import com.easydeliver.ink.app.base.BaseFragment;
 import com.easydeliver.ink.app.base.utils.FragmentUtils;
 import com.easydeliver.ink.app.base.utils.ScreenUtils;
 import com.easydeliver.ink.app.base.widget.adapter.CommonAdapter;
-import com.easydeliver.ink.app.main.Banner;
-import com.easydeliver.ink.app.main.MainHeader;
-import com.easydeliver.ink.app.main.MainHeaderItemViewBinder;
-import com.easydeliver.ink.app.main.MainHotRecommand;
-import com.easydeliver.ink.app.main.MainHotRecommandItemViewBinder;
-import com.easydeliver.ink.app.main.MainMenu;
-import com.easydeliver.ink.app.main.MainMenuItemViewBinder;
-import com.easydeliver.ink.app.main.MainNew;
-import com.easydeliver.ink.app.main.MainNewIndexItemDecoration;
-import com.easydeliver.ink.app.main.MainNewItemViewBinder;
-import com.easydeliver.ink.app.main.MainTitle;
-import com.easydeliver.ink.app.main.MainTitleItemViewBinder;
-import com.easydeliver.ink.app.main.NewBean;
 
 import java.util.ArrayList;
 import java.util.List;

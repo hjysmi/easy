@@ -12,9 +12,9 @@ import com.easydeliver.ink.app.base.ui.widget.bottombar.BottomBar;
 import com.easydeliver.ink.app.base.ui.widget.bottombar.CustomTabEntity;
 import com.easydeliver.ink.app.base.ui.widget.bottombar.TabEntity;
 import com.easydeliver.ink.app.base.utils.FragmentUtils;
-import com.easydeliver.ink.app.fragment.MainFragment;
-import com.easydeliver.ink.app.fragment.MeFragment;
-import com.easydeliver.ink.app.fragment.OrderFragment;
+import com.easydeliver.ink.app.main.MainFragment;
+import com.easydeliver.ink.app.ui.mefragment.MeFragment;
+import com.easydeliver.ink.app.ui.orderfragment.OrderFragment;
 
 import java.util.ArrayList;
 

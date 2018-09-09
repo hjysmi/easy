@@ -18,8 +18,17 @@
     <color name="bge6e6e6">#E6E6E6</color>
     <color name="bg0092d6">#0092D6</color>
     <color name="bga7a7a7">#A7A7A7</color>
-
-
+    <color name="bg0093D7">#0093D7</color>
+    <color name="bg9A9A9A">#9A9A9A</color>
+    <color name="order_trans">#00000000</color>
+    <color name="bgD2D3D5">#D2D3D5</color>
+    <!--order-->
+    <color name="bgB0B0B0">#B0B0B0</color>
+    <color name="bg212121">#212121</color>
+    <color name="bg484848">#484848</color>
+    <color name="bgB4B4B4">#B4B4B4</color>
+    <color name="bgF0F0F0">#F0F0F0</color>
+    <color name="bgC7CCCD">#C7CCCD</color>
     <!--main text-->
     <color name="main_text_wash">#0092D2</color>
     <color name="main_text_shop">#FFA745</color>

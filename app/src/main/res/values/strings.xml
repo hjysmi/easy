@@ -18,9 +18,19 @@
     <string name="me_push_msg">推送通知</string>
     <string name="me_lan_change">语言选择</string>
     <string name="me_suggest">投诉建议</string>
-
-
-
+    <!--order-->
+    <string name="order_title">我的订单</string>
+    <string name="order_all">全部</string>
+    <string name="order_wait_purchase">待付款</string>
+    <string name="order_work">作业中</string>
+    <string name="order_express">配送中</string>
+    <string name="order_wait_comment">待评价</string>
+    <string name="order_trade_success">交易成功</string>
+    <string name="order_comment">评价</string>
+    <string name="order_logistics">物流</string>
+    <string name="order_del">删除</string>
+    <string name="order_purchase">付款</string>
+    <string name="order_cancel">取消订单</string>
 
     <string name="live_load_more">查看更多</string>
 

@@ -1,4 +1,4 @@
-package com.easydeliver.ink.app.fragment;
+package com.easydeliver.ink.app.ui.mefragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,10 +12,6 @@ import com.easydeliver.ink.app.base.BaseFragment;
 import com.easydeliver.ink.app.base.utils.FragmentUtils;
 import com.easydeliver.ink.app.base.utils.ScreenUtils;
 import com.easydeliver.ink.app.base.widget.adapter.CommonAdapter;
-import com.easydeliver.ink.app.ui.mefragment.MeHeader;
-import com.easydeliver.ink.app.ui.mefragment.MeHeaderItemViewBinder;
-import com.easydeliver.ink.app.ui.mefragment.MeText;
-import com.easydeliver.ink.app.ui.mefragment.MeTextItemViewBinder;
 
 import me.drakeet.multitype.Items;
 
