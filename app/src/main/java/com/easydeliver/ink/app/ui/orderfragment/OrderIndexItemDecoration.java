@@ -10,7 +10,10 @@ public class OrderIndexItemDecoration extends RecyclerView.ItemDecoration {
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
         //int position = parent.getChildLayoutPosition(view);
-        if (!((view.getTag() instanceof OrderItemProductBean)||(view.getTag() instanceof OrderItemFooterBean))) {
+        if (!((view.getTag() instanceof OrderItemProductBean)
+                ||(view.getTag() instanceof OrderItemFooterBean)
+
+        )) {
             outRect.top = view.getContext().getResources().getDimensionPixelSize(R.dimen.divider_dp);
         }
 

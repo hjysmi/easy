@@ -31,6 +31,16 @@
     <string name="order_del">删除</string>
     <string name="order_purchase">付款</string>
     <string name="order_cancel">取消订单</string>
+    <string name="order_receive_info">收件信息</string>
+    <string name="order_receive_time">收件时间</string>
+    <string name="order_orderid">订单编号</string>
+    <string name="order_create_time">创建时间</string>
+    <string name="order_pay_time">付款时间</string>
+    <string name="order_express_time">送货时间</string>
+    <string name="order_strike_time">成交时间</string>
+
+    <string name="order_detail_title">订单详情</string>
+
 
     <string name="live_load_more">查看更多</string>
 
@@ -43,5 +53,5 @@
 
     <string name="str_text_msg">&#xe626;</string>
     <string name="str_text_jiantou">&#xe66b;</string>
-
+    <string name="str_return_jiantou">&#xe605;</string>
 </resources>

@@ -22,6 +22,8 @@
     <color name="bg9A9A9A">#9A9A9A</color>
     <color name="order_trans">#00000000</color>
     <color name="bgD2D3D5">#D2D3D5</color>
+    <color name="bgB6B6B6">#B6B6B6</color>
+    <color name="bgBBBBBB">#BBBBBB</color>
     <!--order-->
     <color name="bgB0B0B0">#B0B0B0</color>
     <color name="bg212121">#212121</color>
