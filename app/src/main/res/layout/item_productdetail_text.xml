@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_productdetail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/zhekou"
+        android:drawablePadding="10dp"
+        android:textColor="@color/bgFF4D4F"
+        android:textStyle="italic"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/tv_productdetail_info"
+        android:layout_width="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

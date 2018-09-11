@@ -38,7 +38,8 @@
     <string name="order_pay_time">付款时间</string>
     <string name="order_express_time">送货时间</string>
     <string name="order_strike_time">成交时间</string>
-
+    <string name="product_info">商品信息</string>
+    <string name="product_postage_info">资费说明</string>
     <string name="order_detail_title">订单详情</string>
 
 
