@@ -23,7 +23,7 @@ public class ProductDetailAct extends BaseActivity {
     private CommonAdapter mAdapter;
     @Override
     public void initData(@Nullable Bundle bundle) {
-        ScreenUtils.adaptScreen4VerticalSlide(this,750);
+       // ScreenUtils.adaptScreen4VerticalSlide(this,750);
     }
 
     @Override

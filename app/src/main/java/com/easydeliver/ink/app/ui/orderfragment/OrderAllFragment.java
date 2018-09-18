@@ -21,7 +21,7 @@ public class OrderAllFragment extends BaseFragment{
     @Override
     public void initData(@Nullable Bundle bundle) {
         if (ScreenUtils.isPortrait()) {
-            ScreenUtils.adaptScreen4VerticalSlide(this.getActivity(), 750);
+          //  ScreenUtils.adaptScreen4VerticalSlide(this.getActivity(), 750);
         }
     }
 

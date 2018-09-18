@@ -9,7 +9,6 @@ import android.view.View;
 import com.easydeliver.ink.app.R;
 import com.easydeliver.ink.app.base.BaseActivity;
 import com.easydeliver.ink.app.base.ui.IconFontTextView;
-import com.easydeliver.ink.app.base.utils.ScreenUtils;
 import com.easydeliver.ink.app.base.widget.adapter.CommonAdapter;
 import com.easydeliver.ink.app.ui.orderfragment.OrderIndexItemDecoration;
 import com.easydeliver.ink.app.ui.orderfragment.OrderItemFooterBean;
@@ -24,7 +23,7 @@ public class OrderDetailActivity extends BaseActivity{
     private CommonAdapter mAdapter;
     @Override
     public void initData(@Nullable Bundle bundle) {
-        ScreenUtils.adaptScreen4VerticalSlide(this,750);
+       // ScreenUtils.adaptScreen4VerticalSlide(this,750);
     }
 
     @Override

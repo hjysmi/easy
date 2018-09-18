@@ -41,4 +41,9 @@
         <item name="android:gravity">center_horizontal</item>
         <item name="android:padding">@dimen/margin_small</item>
     </style>
+    <style name="AppTheme.StatusBarWhite.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
 </resources>

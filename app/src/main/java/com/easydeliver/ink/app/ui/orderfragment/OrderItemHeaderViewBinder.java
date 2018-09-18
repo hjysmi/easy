@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.easydeliver.ink.app.R;
 import com.easydeliver.ink.app.ui.orderdetail.OrderDetailActivity;
+import com.easydeliver.ink.app.ui.shop.ShopAct;
 
 import me.drakeet.multitype.ItemViewBinder;
 
@@ -30,6 +31,13 @@ public class OrderItemHeaderViewBinder extends ItemViewBinder<OrderItemHeaderBea
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(holder.itemView.getContext(),OrderDetailActivity.class);
+                holder.itemView.getContext().startActivity(intent);
+            }
+        });
+        holder.order_shop_name.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(holder.itemView.getContext(),ShopAct.class);
                 holder.itemView.getContext().startActivity(intent);
             }
         });
