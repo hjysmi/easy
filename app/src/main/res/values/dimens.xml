@@ -4,6 +4,7 @@
     <dimen name="divider_dp">20dp</dimen>
     <dimen name="divider_new_dp">10dp</dimen>
     <dimen name="padding_left_dp">16dp</dimen>
+    <dimen name="divider_4.8_dp">4.8dp</dimen>
 
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>

@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/main_agent"
+        android:text="乐购老王隔壁代购店"
         android:textColor="@color/bg222222"
         android:layout_centerInParent="true"
         android:textSize="14.4sp" />

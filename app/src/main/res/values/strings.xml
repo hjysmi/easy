@@ -18,6 +18,10 @@
     <string name="me_push_msg">推送通知</string>
     <string name="me_lan_change">语言选择</string>
     <string name="me_suggest">投诉建议</string>
+    <!--shop-->
+    <string name="shop_sure">确定</string>
+    <string name="shop_totalprice">合计金额:</string>
+    <!--<string name="shop_totalprice">合计金额: $ %f.2</string>-->
     <!--order-->
     <string name="order_title">我的订单</string>
     <string name="order_all">全部</string>
